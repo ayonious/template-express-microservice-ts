@@ -4,9 +4,6 @@
   <a href="https://circleci.com/gh/ayonious/template-express-microservice-ts">
     <img alt="CircleCI" src="https://circleci.com/gh/ayonious/template-express-microservice-ts.svg?style=svg">
   </a>
-  <a href="https://codecov.io/gh/ayonious/template-express-microservice-ts">
-    <img alt="codecov" src="https://codecov.io/gh/ayonious/template-express-microservice/branch/master/graph/badge.svg">
-  </a>
 </p>
 
 # 🧐 Whats inside
