@@ -12,7 +12,8 @@
 # 🧐 Whats inside
 
 1. Express endpoint
-2. Testing with jest with:
+2. Added Plugins to validate input
+3. Testing with jest with:
 
 - endpoint testing with supertest
 - normal unit test

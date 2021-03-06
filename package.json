@@ -6,7 +6,10 @@
   "scripts": {
     "setup": "npm install",
     "test": "jest --config jestconfig.json",
-    "start": "nodemon index.ts"
+    "start": "nodemon index.ts",
+    "build": "tsc",
+    "format": "prettier --write \"**/*.{json,md,ts,tsx,yml,js,jsx}\"",
+    "lint": "eslint --ext=js,ts ."
   },
   "keywords": [],
   "author": "",

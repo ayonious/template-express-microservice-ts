@@ -1,8 +1,0 @@
-language: node_js
-node_js:
-  - stable
-  - "--lts"
-before_script:
-  - npm run setup
-after_success:
-  - bash <(curl -s https://codecov.io/bash) -e TRAVIS_NODE_VERSION
