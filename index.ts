@@ -1,4 +1,4 @@
-import app from './src/controllers/server';
+import app from './src/controllers/testingEndpoints';
 
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
