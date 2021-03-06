@@ -8,14 +8,6 @@
     <img alt="codecov" src="https://codecov.io/gh/ayonious/template-express-microservice/branch/master/graph/badge.svg">
   </a>
 </p>
-<p align="center">
-  <a href="https://david-dm.org/ayonious/template-express-microservice">
-    <img alt="dependencies Status" src="https://david-dm.org/ayonious/template-express-microservice/status.svg">
-  </a>
-  <a href="https://david-dm.org/ayonious/template-express-microservice?type=dev">
-    <img alt="devDependencies Status" src="https://david-dm.org/ayonious/template-express-microservice/dev-status.svg">
-  </a>
-</p>
 
 # 🧐 Whats inside
 
@@ -26,6 +18,7 @@
 - normal unit test
 - Test results matching with snapshots
 - Adding plugins to test input validity
+- Endpoint mocking
 
 # 🏃‍♂️ Run command
 
