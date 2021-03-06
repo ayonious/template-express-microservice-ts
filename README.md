@@ -1,8 +1,8 @@
 <h1 align="center">template-express-microservice-ts</h1>
 <h3 align="center">🖥️🍭A bare min express microservice Template in Typescript</h3>
 <p align="center">
-  <a href="https://travis-ci.org/ayonious/template-express-microservice">
-    <img alt="Build Status" src="https://travis-ci.org/ayonious/template-express-microservice.svg?branch=master">
+  <a href="https://circleci.com/gh/ayonious/template-express-microservice-ts">
+    <img alt="CircleCI" src="https://circleci.com/gh/ayonious/template-express-microservice-ts.svg?style=svg">
   </a>
   <a href="https://codecov.io/gh/ayonious/template-express-microservice">
     <img alt="codecov" src="https://codecov.io/gh/ayonious/template-express-microservice/branch/master/graph/badge.svg">
