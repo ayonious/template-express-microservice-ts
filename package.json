@@ -1,6 +1,6 @@
 {
   "name": "template-nodejs-microservice-ts",
-  "version": "1.0.111",
+  "version": "1.0.112",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "axios": "^0.21.4",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "express-validator": "^6.12.1"
+    "express-validator": "^6.12.2"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
