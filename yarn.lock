@@ -692,10 +692,10 @@
   resolved "https://registry.npmjs.org/@types/mime/-/mime-1.3.2.tgz"
   integrity sha512-YATxVxgRqNH6nHEIsvg6k2Boc1JHI9ZbH5iWFFv/MTkchz3b1ieGDa5T0a9RznNdI0KhVbdbWSN+KWWrQZRxTw==
 
-"@types/node@*", "@types/node@^14.18.7":
-  version "14.18.7"
-  resolved "https://registry.npmjs.org/@types/node/-/node-14.18.7.tgz"
-  integrity sha512-UpLEO1iBG7esNPusSAjoZhWFK5Mfd8QfwWhHRrg5io13POn/stsBgTCba9suQaFflNA4tc0+6AFM3R6BZNng6A==
+"@types/node@*", "@types/node@^14.18.8":
+  version "14.18.8"
+  resolved "https://registry.npmjs.org/@types/node/-/node-14.18.8.tgz"
+  integrity sha512-TCYQllM94EyDe/EsfSPrddbTGzkwM46mGuQVyi+YiYSaAFsz9sYbtx4nXRc08sj856SWh2Nx3PmhutigSblkuw==
 
 "@types/prettier@^2.1.5":
   version "2.4.2"
