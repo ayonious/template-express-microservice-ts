@@ -1547,10 +1547,10 @@ expect@^29.0.0, expect@^29.5.0:
     jest-message-util "^29.5.0"
     jest-util "^29.5.0"
 
-express-validator@^6.15.0:
-  version "6.15.0"
-  resolved "https://registry.yarnpkg.com/express-validator/-/express-validator-6.15.0.tgz#5e4601428960b0d66f5f4ae09cb32ed2077374a4"
-  integrity sha512-r05VYoBL3i2pswuehoFSy+uM8NBuVaY7avp5qrYjQBDzagx2Z5A77FZqPT8/gNLF3HopWkIzaTFaC4JysWXLqg==
+express-validator@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/express-validator/-/express-validator-7.0.0.tgz#6b8ffabc5188d04a809bc2d46a0defedd02291ad"
+  integrity sha512-2qH4AKc9iCId69sTJwj5t7o3YwZ6oNctk+gTgVIpztsRGWLTkcNITQOG3+wBGeA4k8Z5Vl0C1yNV40k/Ml05Xw==
   dependencies:
     lodash "^4.17.21"
     validator "^13.9.0"
