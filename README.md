@@ -6,6 +6,12 @@
   </a>
 </p>
 
+
+# 🧐 Requirements before running
+
+- Install node 24
+- yarn to install all the deps
+
 # 🧐 Whats inside
 
 1. Express endpoint
