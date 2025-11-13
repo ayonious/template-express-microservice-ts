@@ -9,7 +9,7 @@
 # 🧐 Whats inside
 
 1. Express endpoint
-2. Added Plugins to validate input
+2. Added Plugins to validate input (using zod)
 3. Testing with jest with:
 
 - endpoint testing with supertest
@@ -18,12 +18,23 @@
 - Adding plugins to test input validity
 - Endpoint mocking
 
+4. Swagger documentation
+5. Lint and prettier
+
 # 🏃‍♂️ Run command
 
 ```bash
 yarn
 yarn start
 curl "http://localhost:3000/sum?val=10"
+```
+
+# 📚 API Documentation
+
+Once the server is running, you can access the interactive Swagger API documentation at:
+
+```
+http://localhost:3000/api-docs
 ```
 
 # 🧪 Run test

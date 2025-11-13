@@ -12,7 +12,11 @@ const chuckNorrisBodySchema = z.object({
 /**
  * Validation middleware for Chuck Norris endpoint
  */
-export const validateChuckNorrisBody = (req: Request, res: Response, next: NextFunction) => {
+export const validateChuckNorrisBody = (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
   try {
     chuckNorrisBodySchema.parse(req.body);
     next();
@@ -32,10 +36,53 @@ export const validateChuckNorrisBody = (req: Request, res: Response, next: NextF
 };
 
 /**
- * Chuck Norris fact endpoint handler
- * POST /
+ * @swagger
+ * /:
+ *   post:
+ *     summary: Get a Chuck Norris fact
+ *     description: Returns a Chuck Norris fact with a custom name substitution
+ *     tags:
+ *       - Fun
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - name
+ *             properties:
+ *               name:
+ *                 type: string
+ *                 description: The name to substitute in the Chuck Norris fact
+ *                 example: John
+ *     responses:
+ *       200:
+ *         description: Successfully retrieved Chuck Norris fact
+ *         content:
+ *           text/plain:
+ *             schema:
+ *               type: string
+ *               example: John counted to infinity - twice.
+ *       400:
+ *         description: Validation error
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 error:
+ *                   type: string
+ *                   example: Validation failed
+ *                 details:
+ *                   oneOf:
+ *                     - type: string
+ *                     - type: array
  */
-export const getChuckNorrisFactController = async (req: Request, res: Response) => {
+export const getChuckNorrisFactController = async (
+  req: Request,
+  res: Response
+) => {
   const { name } = req.body;
   const ret = await getFunFact(name);
   res.send(ret);
