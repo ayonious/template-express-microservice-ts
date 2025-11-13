@@ -8,7 +8,7 @@
     "unit-test": "jest --config jestconfig.json",
     "test-integration": "echo noTest",
     "test": "jest --config jestconfig.json",
-    "start": "nodemon index.ts",
+    "start": "nodemon src/index.ts",
     "build": "tsc",
     "format": "prettier --write \"**/*.{json,md,ts,tsx,yml,js,jsx}\"",
     "lint": "eslint --ext=js,ts ."
@@ -20,7 +20,8 @@
     "axios": "^1.13.2",
     "body-parser": "^2.2.0",
     "express": "^5.1.0",
-    "express-validator": "^7.3.0"
+    "express-validator": "^7.3.0",
+    "zod": "^4.1.12"
   },
   "devDependencies": {
     "@types/express": "^5.0.5",

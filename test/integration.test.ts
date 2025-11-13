@@ -1,5 +1,5 @@
 import request from 'supertest';
-import app from '../src/controllers/testingEndpoints';
+import app from '../src/controllers/allEndpoints';
 
 describe('Test with snapshot', () => {
   it(`test1`, async () => {
