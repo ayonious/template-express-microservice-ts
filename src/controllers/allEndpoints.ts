@@ -1,5 +1,4 @@
 import express from 'express';
-import bodyParser from 'body-parser';
 import swaggerUi from 'swagger-ui-express';
 import { swaggerSpec } from '../swagger';
 import { healthCheck } from './health';
@@ -12,7 +11,7 @@ import {
 const app = express();
 
 // this allows to parse body of post requests
-app.use(bodyParser.json());
+app.use(express.json());
 
 // Swagger documentation
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
