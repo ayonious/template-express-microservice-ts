@@ -10,16 +10,14 @@
 
 1. Express endpoint
 2. Added Plugins to validate input (using zod)
-3. Testing with jest with:
-
-- endpoint testing with supertest
-- normal unit test
-- Test results matching with snapshots
-- Adding plugins to test input validity
-- Endpoint mocking
-
-4. Swagger documentation
-5. Lint and prettier
+3. Swagger documentation
+4. Lint and prettier
+5. Testing with jest with:
+  - endpoint testing with supertest
+  - normal unit test
+  - Test results matching with snapshots
+  - Adding plugins to test input validity
+  - Endpoint mocking
 
 # 🏃‍♂️ Run command
 
