@@ -1,6 +1,6 @@
 {
   "name": "template-nodejs-microservice-ts",
-  "version": "1.0.749",
+  "version": "1.0.750",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -35,7 +35,7 @@
     "@typescript-eslint/parser": "^8.48.0",
     "jest": "^30.2.0",
     "nodemon": "^3.1.11",
-    "prettier": "^3.6.2",
+    "prettier": "^3.7.1",
     "supertest": "^7.1.4",
     "ts-jest": "^29.4.5",
     "ts-node": "^10.9.2",
