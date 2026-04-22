@@ -1,6 +1,6 @@
 {
   "name": "template-nodejs-microservice-ts",
-  "version": "1.0.814",
+  "version": "1.0.815",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.15.1",
+    "axios": "^1.15.2",
     "express": "^5.2.1",
     "express-validator": "^7.3.2",
     "swagger-jsdoc": "^6.2.8",
